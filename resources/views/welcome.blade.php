@@ -28,6 +28,20 @@
           <div class="row">
             <div class="col-lg-3 col-6">
               <!-- small box -->
+              <div class="small-box bg-primary">
+                <div class="inner">
+                  <h3>{{$users}}</h3>
+  
+                  <p>Total Users</p>
+                </div>
+                <div class="icon">
+                  <i class="fas fa-user-friends"></i>
+                </div>
+                <a href="{{ url('/')}}" class="small-box-footer">Total Users <i class="fas fa-user-friends"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-6">
+              <!-- small box -->
               <div class="small-box bg-info">
                 <div class="inner">
                   <h3>{{$company}}</h3>
